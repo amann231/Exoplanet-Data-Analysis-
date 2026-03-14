@@ -1,44 +1,41 @@
-# Exoplanet Data Analysis
+# Exoplanet Transit Detection and Data Analysis
 
-This project explores NASA exoplanet datasets using Python to analyze relationships between planetary and stellar properties.
+This project analyzes stellar light curve data to detect exoplanet transits using Python.
 
-## Objectives
+## Objective
 
-- Analyze exoplanet characteristics such as radius, mass, and orbital period
-- Study relationships between planetary and stellar parameters
-- Visualize astronomical data using Python
+To identify periodic dips in stellar brightness that indicate the presence of an exoplanet.
+
+## Methods Used
+
+- Light curve analysis
+- Periodogram (Lomb–Scargle method)
+- Transit duration estimation
+- Radius ratio calculation
 
 ## Tools & Libraries
 
 - Python
-- Pandas
+- Lightkurve
 - NumPy
 - Matplotlib
 - Jupyter Notebook
 
-## Dataset
+## Datasets
 
-NASA Exoplanet Archive dataset.
+Data from NASA's Kepler and TESS missions.
 
-## Analysis Performed
+Datasets analyzed:
+- KIC 6922244
+- Pi Mensae
 
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Visualization of planetary and stellar relationships
-- Statistical interpretation of patterns in the dataset
+## Results
 
-## Example Visualizations
+The project detects periodic transit signals and estimates key parameters such as:
 
-Plots generated include:
-
-- Planet radius vs orbital period
-- Stellar temperature vs planetary characteristics
-
-## How to Run
-
-1. Download the repository
-2. Open the Jupyter Notebook
-3. Run the cells sequentially
+- orbital period
+- transit duration
+- planetary radius ratio
 
 ## Author
 

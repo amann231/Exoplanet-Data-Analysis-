@@ -1,5 +1,3 @@
-# Exoplanet-Data-Analysis-
-Python analysis of NASA exoplanet datasets using Pandas, NumPy, and Matplotlib to explore relationships between planetary and stellar properties.
 # Exoplanet Data Analysis
 
 This project explores NASA exoplanet datasets using Python to analyze relationships between planetary and stellar properties.
